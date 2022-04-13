@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.callor.arrays.service.ScoreServiceV1"/>
+    <fullyQualifiedTypeName name="com.callor.arrays.service.ScoreServiceV3"/>
+    <fullyQualifiedTypeName name="com.callor.arrays.service.ScoreServiceV4"/>
+    <fullyQualifiedTypeName name="com.callor.arrays.utils.Line"/>
+    <fullyQualifiedTypeName name="com.callor.arrays.service.ScoreServiceV5"/>
+</qualifiedTypeNameHistroy>
