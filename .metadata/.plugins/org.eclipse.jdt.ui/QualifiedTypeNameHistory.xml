@@ -18,4 +18,5 @@
     <fullyQualifiedTypeName name="com.callor.score.domain.ScoreV2VO"/>
     <fullyQualifiedTypeName name="com.callor.score.utils.Line"/>
     <fullyQualifiedTypeName name="com.callor.score.service.ScoreServiceV1"/>
+    <fullyQualifiedTypeName name="com.callor.score.service.ScoreServiceV2"/>
 </qualifiedTypeNameHistroy>
