@@ -18,7 +18,7 @@ public class ScoreServiceV2 extends ScoreServiceV1 {
 	}
 
 	
-	// ÇĞ»ı ÀÌ¸§ ¸®½ºÆ®¸¦ ¹è¿­·Î ¹Ş¾Æ¼­ ÃÊ±âÈ­ ÇÏ±â
+	// í•™ìƒ ì´ë¦„ ë¦¬ìŠ¤íŠ¸ë¥¼ ë°°ì—´ë¡œ ë°›ì•„ì„œ ì´ˆê¸°í™” í•˜ê¸°
 	public ScoreServiceV2(String[] stNames) {
 		
 		int length = stNames.length;
@@ -39,9 +39,9 @@ public class ScoreServiceV2 extends ScoreServiceV1 {
 		float avgResult = 0;
 		
 		System.out.println(Line.dLine(50));
-		System.out.println("ºû³ª°í±³ ¼ºÀûÇ¥ v1");
+		System.out.println("ë¹›ë‚˜ê³ êµ ì„±ì í‘œ v1");
 		System.out.println(Line.sLine(50));
-		System.out.println("ÀÌ  ¸§\t±¹¾î\t¿µ¾î\t¼öÇĞ\tÃÑÁ¡\tÆò±Õ");
+		System.out.println("ì´  ë¦„\têµ­ì–´\tì˜ì–´\tìˆ˜í•™\tì´ì \tí‰ê· ");
 		System.out.println(Line.sLine(50));
 		
 		for(int i = 0 ; i < scores.length ; i++) {
@@ -58,12 +58,12 @@ public class ScoreServiceV2 extends ScoreServiceV1 {
 			sumTotal += scores[i].getIntSum();
 			
 			/*
-			 * Æò±Õ °è»ê ÁÖÀÇ
+			 * í‰ê·  ê³„ì‚° ì£¼ì˜
 			 */
 			avgResult += scores[i].getfAvg();
 		}
 		System.out.println(Line.sLine(50));
-		System.out.printf("%-6s","ÃÑÁ¡");
+		System.out.printf("%-6s","ì´ì ");
 		System.out.printf("%4d\t",korTotal );
 		System.out.printf("%4d\t", engTotal);
 		System.out.printf("%4d\t",mathTotal );

@@ -6,7 +6,7 @@ public class ScoreControllerV2 {
 
 	public static void main(String[] args) {
 		
-		String[] stNames = {"È«±æµ¿","ÀÌ¸ù·æ","¼ºÃáÇâ","Àåº¸°í","ÀÓ²©Á¤"};
+		String[] stNames = {"í™ê¸¸ë™","ì´ëª½ë£¡","ì„±ì¶˜í–¥","ì¥ë³´ê³ ","ì„êº½ì •"};
 		
 		ScoreServiceV2 scServiceV2 = new ScoreServiceV2(stNames);
 		scServiceV2.makeScore();

@@ -6,19 +6,19 @@ public class ExecV3 {
 
 	public static void main(String[] args) {
 		
-		// VOÅ¬·¡½º¸¦ »ç¿ëÇÏ¿© ¹è¿­ ¼±¾ğÇÏ±â
+		// VOí´ë˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ì—¬ ë°°ì—´ ì„ ì–¸í•˜ê¸°
 		ScoreV2VO[] scores = new ScoreV2VO[10];
 		
-		// ¹è¿­·Î ¼±¾ğµÈ °´Ã¼´Â ¾ÆÁ÷ »ç¿ëÇÒ ÁØºñ°¡ ´ú µÇ¾ú´Ù
-		// °¢ ¿ä¼ÒµéÀ» ¹İµå½Ã »ı¼ºÀÚ·Î ÃÊ±âÈ­ ½ÃÄÑÁÖ¾î¾ß ÇÑ´Ù
+		// ë°°ì—´ë¡œ ì„ ì–¸ëœ ê°ì²´ëŠ” ì•„ì§ ì‚¬ìš©í•  ì¤€ë¹„ê°€ ëœ ë˜ì—ˆë‹¤
+		// ê° ìš”ì†Œë“¤ì„ ë°˜ë“œì‹œ ìƒì„±ìë¡œ ì´ˆê¸°í™” ì‹œì¼œì£¼ì–´ì•¼ í•œë‹¤
 		scores[0] = new ScoreV2VO();
 		scores[1] = new ScoreV2VO();
 		scores[2] = new ScoreV2VO();
 		scores[3] = new ScoreV2VO();
 		
-		scores[0].setStName("È«±æµ¿");
-		scores[1].setStName("ÀÌ¸ù·æ");
-		scores[2].setStName("Àå¿µÀÚ");
-		scores[3].setStName("¼ºÃáÇâ");
+		scores[0].setStName("í™ê¸¸ë™");
+		scores[1].setStName("ì´ëª½ë£¡");
+		scores[2].setStName("ì¥ì˜ì");
+		scores[3].setStName("ì„±ì¶˜í–¥");
 	}
 }

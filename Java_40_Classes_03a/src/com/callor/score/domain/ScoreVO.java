@@ -1,19 +1,19 @@
 package com.callor.score.domain;
 
 /*
- * VO Å¬·¡½º
- * Value Object Å¬·¡½º
- * °´Ã¼ÁöÇâ ÇÁ·Î±×·¡¹Ö¿¡¼­ °¡Àå Áß¿äÇÑ ¿ªÇÒÀ» ¼öÇàÇÒ Å¬·¡½º
- * º¯¼öµéÀÇ ¹­À½ÀÌ°í "µ¥ÀÌÅÍ¸¦ ÇÏ³ªÀÇ ±×·ì"À¸·Î ¹­¾î¼­ Á¤º¸Ã³¸®¿¡
- * »ç¿ëÇÒ ¿ëµµ·Î ¼±¾ðÇÏ´Â Å¬·¡½º
+ * VO í´ëž˜ìŠ¤
+ * Value Object í´ëž˜ìŠ¤
+ * ê°ì²´ì§€í–¥ í”„ë¡œê·¸ëž˜ë°ì—ì„œ ê°€ìž¥ ì¤‘ìš”í•œ ì—­í• ì„ ìˆ˜í–‰í•  í´ëž˜ìŠ¤
+ * ë³€ìˆ˜ë“¤ì˜ ë¬¶ìŒì´ê³  "ë°ì´í„°ë¥¼ í•˜ë‚˜ì˜ ê·¸ë£¹"ìœ¼ë¡œ ë¬¶ì–´ì„œ ì •ë³´ì²˜ë¦¬ì—
+ * ì‚¬ìš©í•  ìš©ë„ë¡œ ì„ ì–¸í•˜ëŠ” í´ëž˜ìŠ¤
  */
 public class ScoreVO {
 	
 	/*
-	 * ÀÎ½ºÅÏ½ºº¯¼ö :
-	 * Å¬·¡½º ¿µ¿ª¿¡ ¼±¾ðµÈ º¯¼ö
-	 * ScoreVO Å¬·¡½º¸¦ »ç¿ëÇÏ¿© °´Ã¼¸¦ ¼±¾ðÇÏ°í »ý¼ºÀÚ¸¦ È£ÃâÇÏ¿©
-	 * ÀÎ½ºÅÏ½ºÈ­ÇÒ ¶§ °°ÀÌ ¼±¾ð ¹× ÃÊ±âÈ­µÇ´Â º¯¼ö
+	 * ì¸ìŠ¤í„´ìŠ¤ë³€ìˆ˜ :
+	 * í´ëž˜ìŠ¤ ì˜ì—­ì— ì„ ì–¸ëœ ë³€ìˆ˜
+	 * ScoreVO í´ëž˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ì—¬ ê°ì²´ë¥¼ ì„ ì–¸í•˜ê³  ìƒì„±ìžë¥¼ í˜¸ì¶œí•˜ì—¬
+	 * ì¸ìŠ¤í„´ìŠ¤í™”í•  ë•Œ ê°™ì´ ì„ ì–¸ ë° ì´ˆê¸°í™”ë˜ëŠ” ë³€ìˆ˜
 	 */
 	public String stName;
 	public int intKor;

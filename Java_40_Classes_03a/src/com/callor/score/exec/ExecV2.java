@@ -6,11 +6,11 @@ public class ExecV2 {
 
 	public static void main(String[] args) {
 		ScoreV2VO stNo1 = new ScoreV2VO();
-		stNo1.setStName("»´±Êµø");
+		stNo1.setStName("ÌôçÍ∏∏Îèô");
 		System.out.println(stNo1.getStName());
 		
 		ScoreV2VO stNo2 = new ScoreV2VO();
-		stNo2.setStName("º∫√·«‚");
+		stNo2.setStName("ÏÑ±Ï∂òÌñ•");
 		System.out.println(stNo2.getStName());
 		
 		stNo1.setIntKor(90);

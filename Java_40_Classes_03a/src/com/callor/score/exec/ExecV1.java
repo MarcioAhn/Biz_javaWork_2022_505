@@ -7,22 +7,22 @@ public class ExecV1 {
 
 	public static void main(String[] args) {
 		
-		// ScoreVO Å¬·¡½º¸¦ »ç¿ëÇÏ¿© 3°³ÀÇ °´Ã¼¸¦ »ı¼º
+		// ScoreVO í´ë˜ìŠ¤ë¥¼ ì‚¬ìš©í•˜ì—¬ 3ê°œì˜ ê°ì²´ë¥¼ ìƒì„±
 		ScoreVO stNo1 = new ScoreVO();
 		ScoreVO stNo2 = new ScoreVO();
 		ScoreVO stNo3 = new ScoreVO();
 		
-		stNo1.stName = "È«±æµ¿";
-		stNo2.stName = "ÀÌ¸ù·æ";
-		stNo3.stName = "¼ºÃáÇâ";
+		stNo1.stName = "í™ê¸¸ë™";
+		stNo2.stName = "ì´ëª½ë£¡";
+		stNo3.stName = "ì„±ì¶˜í–¥";
 		
 		stNo1.intKor = 90;
 		stNo2.intKor = 88;
 		stNo3.intKor = 100;
 		
-		// 1¹ø ÇĞ»ıÀÇ ÀÌ¸§°ú ±¹¾îÁ¡¼ö¸¦ È®ÀÎÇÏ°í ½Í´Ù
+		// 1ë²ˆ í•™ìƒì˜ ì´ë¦„ê³¼ êµ­ì–´ì ìˆ˜ë¥¼ í™•ì¸í•˜ê³  ì‹¶ë‹¤
 		System.out.println(Line.dLine(50));
-		System.out.println("¼ºÀû Ã³¸®");
+		System.out.println("ì„±ì  ì²˜ë¦¬");
 		System.out.println(Line.sLine(50));
 		System.out.printf("%s\t%d\n", stNo1.stName, stNo1.intKor);
 		System.out.printf("%s\t%d\n", stNo2.stName, stNo2.intKor);

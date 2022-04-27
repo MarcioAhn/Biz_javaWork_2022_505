@@ -7,9 +7,9 @@ public class ExecV4 {
 	public static void main(String[] args) {
 		
 		
-		// ScoreV2VO Ŭ������ ����Ͽ� 100�� �迭��ü ����
+		// ScoreV2VO 클래스를 사용하여 100의 배열객체 선언
 		ScoreV2VO[] scores = new ScoreV2VO[100];
-		// �迭��ü ��� ��Ҹ� for() �ݺ��� ������ �����ڸ� ȣ���Ͽ� �ʱ�ȭ
+		// 배열개체 모든 요소를 for() 반복문 내에서 생성자를 호출하여 초기화
 		for(int i = 0 ; i < scores.length; i++) {
 			scores[i] = new ScoreV2VO();
 		}

@@ -19,7 +19,7 @@ public class ScoreServiceV1 {
 	}
 
 	
-	// ÇĞ»ı ÀÌ¸§ ¸®½ºÆ®¸¦ ¹è¿­·Î ¹Ş¾Æ¼­ ÃÊ±âÈ­ ÇÏ±â
+	// í•™ìƒ ì´ë¦„ ë¦¬ìŠ¤íŠ¸ë¥¼ ë°°ì—´ë¡œ ë°›ì•„ì„œ ì´ˆê¸°í™” í•˜ê¸°
 	public ScoreServiceV1(String[] stNames) {
 		
 		int length = stNames.length;
@@ -45,9 +45,9 @@ public class ScoreServiceV1 {
 	}
 	public void printScore() {
 		System.out.println(Line.dLine(50));
-		System.out.println("ºû³ª°í±³ ¼ºÀûÇ¥ v1");
+		System.out.println("ë¹›ë‚˜ê³ êµ ì„±ì í‘œ v1");
 		System.out.println(Line.sLine(50));
-		System.out.println("ÀÌ  ¸§\t±¹¾î\t¿µ¾î\t¼öÇĞ\tÃÑÁ¡\tÆò±Õ");
+		System.out.println("ì´  ë¦„\têµ­ì–´\tì˜ì–´\tìˆ˜í•™\tì´ì \tí‰ê· ");
 		System.out.println(Line.sLine(50));
 		
 		for(int i = 0 ; i < scores.length ; i++) {
@@ -61,7 +61,7 @@ public class ScoreServiceV1 {
 		System.out.println(Line.sLine(50));
 	}
 	public void printSum() {
-		System.out.print("ÃÑ  Á¡\t");
+		System.out.print("ì´  ì \t");
 		
 		int intKorsum = 0;
 		int intEngsum = 0;

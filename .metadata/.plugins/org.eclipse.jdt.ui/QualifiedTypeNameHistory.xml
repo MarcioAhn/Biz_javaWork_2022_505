@@ -9,7 +9,6 @@
     <fullyQualifiedTypeName name="com.callor.arrays.service.StudentServiceV2"/>
     <fullyQualifiedTypeName name="com.callor.classes.Servicev1.ScoreServiceV1"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.callor.classes.utils.Line"/>
     <fullyQualifiedTypeName name="com.callor.classes.service.ScoreServiceV1"/>
     <fullyQualifiedTypeName name="com.callor.classes.service.ScoreServiceV2"/>
@@ -19,4 +18,21 @@
     <fullyQualifiedTypeName name="com.callor.score.utils.Line"/>
     <fullyQualifiedTypeName name="com.callor.score.service.ScoreServiceV1"/>
     <fullyQualifiedTypeName name="com.callor.score.service.ScoreServiceV2"/>
+    <fullyQualifiedTypeName name="com.callor.score.utils.Score"/>
+    <fullyQualifiedTypeName name="com.callor.classes.exec.ScannerEx1"/>
+    <fullyQualifiedTypeName name="com.callor.score.impl.StudentServiceImplV1"/>
+    <fullyQualifiedTypeName name="com.callor.score.service.StudentService"/>
+    <fullyQualifiedTypeName name="java.io.InputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.callor.score.domain.StudentVO"/>
+    <fullyQualifiedTypeName name="com.callor.app.service.ServiceV1"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.callor.service.impl.StudentServiceImplV1"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.callor.app.controller.MenuController"/>
+    <fullyQualifiedTypeName name="com.callor.app.controller.StudentControllerV1"/>
+    <fullyQualifiedTypeName name="com.callor.app.utils.IndexInfo"/>
+    <fullyQualifiedTypeName name="com.callor.app.utils.IndexInfo.ST"/>
+    <fullyQualifiedTypeName name="com.callor.app.utils.Line"/>
 </qualifiedTypeNameHistroy>

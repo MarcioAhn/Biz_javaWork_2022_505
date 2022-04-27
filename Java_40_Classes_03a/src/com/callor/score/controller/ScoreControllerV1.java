@@ -5,7 +5,7 @@ import com.callor.score.service.ScoreServiceV1;
 public class ScoreControllerV1 {
 
 	public static void main(String[] args) {
-		String[] stNames = {"È«±æµ¿","ÀÌ¸ù·æ","¼ºÃáÇâ","ÀÓ²©Á¤","Àå¿µÀÚ"};
+		String[] stNames = {"í™ê¸¸ë™","ì´ëª½ë£¡","ì„±ì¶˜í–¥","ì„êº½ì •","ì¥ì˜ì"};
 		ScoreServiceV1 scService = new ScoreServiceV1(stNames);
 		scService.makeScore();
 		scService.printScore();
