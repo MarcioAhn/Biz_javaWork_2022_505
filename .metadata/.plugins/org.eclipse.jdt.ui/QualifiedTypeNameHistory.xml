@@ -35,4 +35,5 @@
     <fullyQualifiedTypeName name="com.callor.app.utils.IndexInfo"/>
     <fullyQualifiedTypeName name="com.callor.app.utils.IndexInfo.ST"/>
     <fullyQualifiedTypeName name="com.callor.app.utils.Line"/>
+    <fullyQualifiedTypeName name="com.callor.app.GetValue"/>
 </qualifiedTypeNameHistroy>
