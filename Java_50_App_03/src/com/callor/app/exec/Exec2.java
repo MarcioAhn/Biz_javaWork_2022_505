@@ -22,7 +22,7 @@ public class Exec2 {
 		
 		intSum = 0;
 		for (int i : intNum) {
-			intSum += intNum[i];
+			intSum += i;
 		}
 		
 		System.out.println("총합계 :" + intSum);
