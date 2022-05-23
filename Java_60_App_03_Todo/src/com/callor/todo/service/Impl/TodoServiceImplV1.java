@@ -20,11 +20,11 @@ public class TodoServiceImplV1 implements TodoService {
 
 	protected final String saveFileName;
 	protected final List<TodoVO> todoList;
-	
+
 	public TodoServiceImplV1() {
 		this("src/com/callor/todo/model/todoList.txt");
 	}
-	
+
 	public TodoServiceImplV1(String saveFileName) {
 		todoList = new ArrayList<>();
 		this.saveFileName = saveFileName;
@@ -78,30 +78,29 @@ public class TodoServiceImplV1 implements TodoService {
 		return null;
 	}
 
-
 	@Override
 	public void saveTodo(String fileName) throws IOException {
-		
+
 		FileWriter writer = null;
 		PrintWriter out = null;
-		
+
 		writer = new FileWriter(saveFileName);
 		out = new PrintWriter(writer);
-		
-		for(TodoVO vo : todoList) {
+
+		for (TodoVO vo : todoList) {
 			out.printf("%s,", vo.getTKey());
 			out.printf("%s,", vo.getSdate());
 			out.printf("%s,", vo.getStime());
 			out.printf("%s,", vo.getEdate());
 			out.printf("%s,", vo.getEtime());
 			out.printf("%s\n", vo.getTContent());
-			
+
 		}
 		// buffer에 남아있는 데이터를 강제로 파일에 기록
 		out.flush();
-		
+
 		// 열려있는 파일 resource를 닫기
-		// 파일에 저장하는 코드에서는 
+		// 파일에 저장하는 코드에서는
 		// 반드시 마지막에 close를 해야 한다
 		out.close();
 		writer.close();
@@ -157,7 +156,7 @@ public class TodoServiceImplV1 implements TodoService {
 	@Override
 	public void update(Integer num, String content) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }

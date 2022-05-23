@@ -14,7 +14,7 @@ public class InputServiceImplV2 extends InputServiceImplV1 {
 	@Override
 	public String inputContent() {
 
-		System.out.print("할 일(QUIT:종료) >>");
+		System.out.println("할 일(QUIT:종료) >>");
 		String content = scan.nextLine();
 		return content;
 	}

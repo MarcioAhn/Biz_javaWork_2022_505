@@ -19,7 +19,7 @@ public class Exec3 {
 		int index = 0;
 		for(int num : nums) {
 			if(num >= 55) {
-				System.out.printf("최초로 %d 번째 %d", index, num);
+				System.out.printf("최초로 %d 번째 %d", index+1, num);
 				break;
 			}
 			index++;
